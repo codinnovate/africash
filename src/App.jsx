@@ -4,6 +4,10 @@ import Hero from './components/Hero';
 import Brands from './components/Brands';
 import { Footer } from './components/Footer';
 import Features from './components/Features';
+import Testimonials from './components/Testimonials';
+import Download from './components/Download';
+import Newsletter from './components/Newsletter';
+import Benefits from './components/Benefits';
 
 
 function App() {
@@ -14,6 +18,10 @@ function App() {
       <Hero />
       <Brands />
       <Features />
+      <Benefits />
+      <Testimonials />
+      <Download />
+      <Newsletter />
       <Footer />
 
     </div>

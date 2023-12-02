@@ -24,3 +24,12 @@ a:hover{
   background-color: #068353;
   background-size: cover;
 }
+.pattern-2{
+  background: url('./assets/images/pattern2.png');
+  background-color: #068353;
+  background-size: cover;
+}
+
+.bg-primary{
+    background-color: #068353;
+}

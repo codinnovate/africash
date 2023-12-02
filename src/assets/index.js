@@ -12,9 +12,16 @@ import bitcoin from './images/bitcoin.png';
 import appstore from './images/appstore.png';
 import googleplay from './images/googleplay.png';
 import pattern from './images/pattern.png';
-
+import woman from './images/testimonial/woman.png';
+import guy from './images/testimonial/guy.png';
+import man from './images/testimonial/man.png';
+import halfphone from './images/halfphone.png';
 
 export default {
+    halfphone,
+    woman,
+    guy,
+    man,
     savings,
     pattern,
     wallet,
