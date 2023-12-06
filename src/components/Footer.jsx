@@ -1,4 +1,3 @@
-import { motion } from 'framer-motion';
 
 
 const company = [
@@ -28,7 +27,9 @@ const legal = [
 ]
 export const Footer = () => {
   return (
-    <div className='bg-primary w-full flex flex-col mt-[3.5em] pt-[3em] pb-[2.94em] px-[1.5em]'>
+    <div className='bg-primary w-full flex flex-col mt-[3.5em] md:mt-[6.5em] pt-[3em] pb-[2.94em] px-[1.5em] '>
+      <div className='flex flex-col md:flex-row w-full md:max-w-[75em] md:justify-between md:mx-auto items-start'>
+
       <div className='flex items-center mb-[2em]'>
         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
   <g clipPath="url(#clip0_1_1410)">
@@ -46,27 +47,28 @@ export const Footer = () => {
       <div className=' mb-[0.38em]'>
         <h1 className='text-white text-[1em] mb-[1.12em] font-medium'>Company</h1>
         {company.map(item => (
-          <p key={item.name} className='font-normal mb-[1.12em] text-sm  text-white'>{item.name}</p>
-        ))}
+          <p key={item.name} className='font-normal hover:underline transition-all mb-[1.12em] text-sm  text-white'>{item.name}</p>
+          ))}
       </div>
       <div className=' mb-[0.38em]'>
         <h1 className='text-white text-[1em] mb-[1.12em] font-medium'>Features</h1>
         {features.map(item => (
-          <p key={item.name} className='font-normal mb-[1.12em] text-sm  text-white'>{item.name}</p>
-        ))}
+          <p key={item.name} className='font-normal hover:underline transition-all mb-[1.12em] text-sm  text-white'>{item.name}</p>
+          ))}
       </div>
       <div className=' mb-[0.38em]'>
         <h1 className='text-white text-[1em] mb-[1.12em] font-medium'>Help</h1>
         {help.map(item => (
-          <p key={item.name} className='font-normal mb-[1.12em] text-sm  text-white'>{item.name}</p>
-        ))}
+          <p key={item.name} className='font-normal hover:underline transition-all mb-[1.12em] text-sm  text-white'>{item.name}</p>
+          ))}
       </div>
       <div className=' mb-[1.82em]'>
         <h1 className='text-white text-[1em] mb-[1.12em] font-medium'>Legal</h1>
         {legal.map(item => (
-          <p key={item.name} className='font-normal mb-[1.12em] text-sm  text-white'>{item.name}</p>
+          <p key={item.name} className='font-normal hover:underline transition-all mb-[1.12em] text-sm  text-white'>{item.name}</p>
         ))}
       </div>
+          </div>
       </div>
   )
 }
